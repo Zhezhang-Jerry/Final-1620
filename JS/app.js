@@ -12,3 +12,22 @@ function displaypicture() {
         document.getElementById(y).src = x;
     }
 }
+
+document.getElementById(y).addEventListener('click', function addtocart(x) {
+    let cartname = albums[x - 1].name
+    let picturepath = "Images/Album" + x +".png"
+    let pprice = albums[x - 1].price
+    document.getElementById("carti").src = picturepath
+    document.getElementById("cartn").innerHTML = cartname
+    document.getElementById("cartp").innerHTML = pprice
+})
+
+
+// function addtocart(x) {
+//     let cartname = albums[x - 1].name
+//     let picturepath = "Images/Album" + x +".png"
+//     let pprice = albums[x - 1].price
+//     document.getElementById("carti").src = picturepath
+//     document.getElementById("cartn").innerHTML = cartname
+//     document.getElementById("cartp").innerHTML = pprice
+// }

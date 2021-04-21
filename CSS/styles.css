@@ -28,6 +28,10 @@ footer {
     width: 150px;
     height: 150px;
 }
+#carti {
+    width: 150px;
+    height: 150px;
+}
 @media screen and (min-width : 640px) {
     .shop-items {
         display: grid;
