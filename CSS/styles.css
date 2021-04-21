@@ -1,5 +1,7 @@
 body{
     font-family: 'RocknRoll One', sans-serif;
+    background-color: #9ccfd8;
+    text-align: center;
 }
 h1 {
     font-family: 'Indie Flower', cursive;
@@ -8,17 +10,6 @@ h1 {
     background-color : #eb6f92;
     color: #e0def4;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 ul {
     list-style: none;
 }
